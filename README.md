@@ -1,5 +1,7 @@
 # Machine Learning Classification: Predicting Airline Passenger Satisfaction
 
+Project creator: [Tianyi Liang](https://www.linkedin.com/in/tianyi-liang-at-bu/)
+
 This repository contains a Machine Learning model that predicts airline passenger satisfaction based on a range of features including the quality of services, flight characteristics, and personal features of the passengers.
 
 ## Table of Contents
