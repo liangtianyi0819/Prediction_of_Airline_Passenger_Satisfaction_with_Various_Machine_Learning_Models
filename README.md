@@ -7,11 +7,11 @@ This repository contains a Machine Learning model that predicts airline passenge
 ## Table of Contents
 
 1. [Dataset](#dataset)
-2. [Requirements](#Requirements)
-3. [Methodology](#Methodology)
-4. [Results](#Results)
-5. [Conclusion](#Conclusion)
-6. [Insights](#Insights)
+2. [Requirements](#requirements)
+3. [Methodology](#methodology)
+4. [Results](#results)
+5. [Conclusion](#conclusion)
+6. [Insights](#insights)
 
 ## Dataset <a name="dataset"></a>
 
@@ -41,7 +41,7 @@ The project uses the dataset "Airline Passenger Satisfaction Score Classificatio
 * Arrival Delay in Minutes: Minutes delayed when Arrival
 * Satisfaction: Airline satisfaction level(Satisfaction, neutral or dissatisfaction)
 
-## Requirements <a name="Requirements"></a>
+## Requirements <a name="requirements"></a>
 
 This project uses Python along with several additional libraries. These are:
 
@@ -50,7 +50,7 @@ This project uses Python along with several additional libraries. These are:
 * Seaborn and Matplotlib for plotting graphs
 * Numpy for basic operations
 
-## Methodology <a name="Methodology"></a>
+## Methodology <a name="methodology"></a>
 
 1. Data reading and preprocessing.
 2. Data visualization.
@@ -63,7 +63,7 @@ This project uses Python along with several additional libraries. These are:
    * Decision Tree Classifier
 5. Model comparison based on accuracy.
 
-## Results <a name="Results"></a>
+## Results <a name="results"></a>
 
 The accuracy of each model depends on the parameters used. Here are some representative results:
 
@@ -75,13 +75,13 @@ The accuracy of each model depends on the parameters used. Here are some represe
 
 Please note that these results can vary depending on the random state during the train-test split and other factors. For more details on how these models were trained and evaluated, please refer to the code in the Jupyter Notebook file in this repository.
 
-## Conclusion <a name="Conclusion"></a>
+## Conclusion <a name="conclusion"></a>
 
 This project showcased the applicability and effectiveness of various machine learning classifiers in predicting airline passenger satisfaction. It revealed that the accuracy of predicting passenger satisfaction greatly depends on the classification algorithm used. Among the classifiers tested, the Polynomial Regression Classifier showed the most promising results with the highest accuracy of 92.58% at degree=2, followed by the Decision Tree Classifier which had an accuracy range of 89% to 94%.
 
 The project also underlines the importance of data preprocessing and visualization in understanding and manipulating the data for optimal results. Through visualization, we were able to understand the distribution and correlation of variables, thereby informing our choices of classifiers and parameters.
 
-## Insights <a name="Insights"></a>
+## Insights <a name="insights"></a>
 
 Through the results of the project, we understand that passenger satisfaction in the airline industry can be influenced by a variety of factors, which are reflected in our feature set. Each feature contributes uniquely to the model’s performance, and it's worth noting that different models might weigh these features differently when making predictions. 
 
