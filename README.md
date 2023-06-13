@@ -6,14 +6,14 @@ This repository contains a Machine Learning model that predicts airline passenge
 
 ## Table of Contents
 
-1. [Dataset](#Dataset)
+1. [Dataset](#dataset)
 2. [Requirements](#Requirements)
 3. [Methodology](#Methodology)
 4. [Results](#Results)
 5. [Conclusion](#Conclusion)
 6. [Insights](#Insights)
 
-## Dataset <a name="Dataset"></a>
+## Dataset <a name="dataset"></a>
 
 The project uses the dataset "Airline Passenger Satisfaction Score Classification" from Kaggle, which includes the following features:
 
